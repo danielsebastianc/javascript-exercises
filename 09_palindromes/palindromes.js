@@ -1,5 +1,6 @@
 const palindromes = function (string) {
   const alphanum = "abcdefghijklmnopqrstuvwxyz0123456789";
+
   const cleanString = string
     .toLowerCase()
     .split("")
